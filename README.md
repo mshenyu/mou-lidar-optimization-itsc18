@@ -8,9 +8,9 @@ LiDARs plays an important role in self-driving cars and its configuration such a
 
 ![image](https://github.com/zhao-lab/mou-lidar-optimization-itsc18/blob/master/case1_2lidar_2laser_822.jpeg.001.jpeg)
 
-In folder "tool", folder "c" and folder "matlab" are the source code offered by Gurobi.
-You can't directly git clone these two folders and need to install the source code from Gurobi official website because there's a license issue.
+In folder "tool", folder "build", folder "c" and folder "matlab" are the source code offered by Gurobi.
+This is just for instruction. You can't directly git clone these three folders and need to install the source code from Gurobi official website because there's a license issue.
 
 Put the "main.m" in folder "src" into folder "matlab" installed and run it to get a ".lp" file which is the model created by Gurobi.
 
-Then run "mip2_c.c" in folder "c" installed to get the positions of lidars in the model you designed in "main.m".
+Then build and run "mip2_c.c" in folder "c" installed to get the positions of lidars in the model you designed in "main.m".
