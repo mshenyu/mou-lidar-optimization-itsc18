@@ -1,6 +1,7 @@
 I recommend that readers first read the paper and then go to the code.
 
-In main.m
+main.m:
+==
 
 This is for generating the Gurobi optimization model.
 
@@ -18,7 +19,8 @@ cubeNumnz: number of cubes in half axis of z
 theta: The angles of all lasers on one lidar
 model.lb/model.ub : the boundary of x,y,z
 
-In mip2_c.c
+mip2_c.c
+==
 
 This is official Gurobi example code.
 
