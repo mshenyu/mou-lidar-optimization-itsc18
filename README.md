@@ -12,7 +12,7 @@ LiDARs plays an important role in self-driving cars and its configuration such a
 
 
 In folder "tool", folder "build", folder "c" and folder "matlab" are the source code offered by Gurobi.
-This is just for instruction. You can't directly git clone these three folders and need to install the source code from [Gurobi official website]http://www.gurobi.com/resources/getting-started/starting-with-gurobi because there's a license issue.
+This is just for instruction. You can't directly git clone these three folders and need to install the source code from [Gurobi official website](http://www.gurobi.com/resources/getting-started/starting-with-gurobi) because there's a license issue.
 
 Put the "main.m" in folder "src" into folder "matlab" installed and run it to get a ".lp" file which is the model created by Gurobi.
 
